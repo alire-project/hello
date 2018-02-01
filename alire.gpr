@@ -1,6 +1,0 @@
-aggregate project Alire is
-
-    for Project_Path use ("../libhello");
-    for Project_Files use ("hello.gpr");
-
-end Alire;
