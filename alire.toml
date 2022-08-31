@@ -1,0 +1,15 @@
+name = "hello"
+description = "'Hello, world!' demonstration project"
+version = "1.0.2"
+tags = ["hello", "demo"]
+licenses = "MIT"
+website = "https://github.com/alire-project/hello"
+
+authors = ["Alejandro R. Mosteo"]
+maintainers = ["Alejandro R. Mosteo <alejandro@mosteo.com>"]
+maintainers-logins = ["mosteo"]
+
+executables = ["hello"]
+
+[[depends-on]]
+libhello = "^1.0"
